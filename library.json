@@ -1,0 +1,24 @@
+{
+    "name": "avr-utils",
+    "version": "2.0.0",
+    "description": "basic utils for easier avr development",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/haschke-felix/avr-utils"
+    },
+    "authors": [
+        {
+            "name": "Felix Haschke",
+            "email": "haschke.felix@gmail.com",
+            "url": "tek2you.de",
+            "maintainer": true
+        }
+    ],
+    "dependencies" :
+    [
+        {
+            "platform" : "atmelavr"
+        }
+    ],
+    "platforms": "*"
+}
