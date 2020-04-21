@@ -1,5 +1,5 @@
 {
-    "name": "AVR basic utils",
+    "name": "avr-utils",
     "keywords": "avr, gcc, avrdude, basic, atmel, microchip, tek2you",
     "description": "basic utils for easier avr development",
     "repository": {
@@ -17,4 +17,4 @@
     "version": "2.0.0",
     "platforms": "atmelavr",
     "frameworks": "arduino"
-}
+}   
