@@ -38,7 +38,7 @@ public:
 
 	constexpr inline IntFlags operator|(IntFlags f) const noexcept { return IntFlags(i | f.i); }
 	constexpr inline IntFlags operator^(IntFlags f) const noexcept { return IntFlags(i ^ f.i); }
-	constexpr inline IntFlags operator&(Int mask) const noexcept { return IntFlags(i & mask); }
+	constexpr inline IntFlags operator&(IntFlags f) const noexcept { return IntFlags(i & f.i); }
 	constexpr inline IntFlags operator~() const noexcept { return IntFlags(~i); }
 
 	constexpr inline bool operator!() const noexcept { return !i; }
